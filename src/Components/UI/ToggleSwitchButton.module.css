@@ -1,0 +1,23 @@
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    width: 43px;
+    height: 20px;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 30px;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.toggle-btn > .circle {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+    margin-left: 0.25rem;
+}
+
+.active {
+    transform: translateX(23px);
+}

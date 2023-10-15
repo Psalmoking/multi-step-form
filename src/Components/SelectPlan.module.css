@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 0 ;
+    height: auto;
+}
+
+.select-plan h1 {
+    margin-bottom: 0.75rem;
+}
+
+.select-plan p {
+    color: hsl(231, 11%, 63%);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.select-plan form {
+    margin-top: 2.5rem;
+}
+
+.plan-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(217, 100%, 97%);
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+}
+
+.switch  div {
+    margin: 0 0.5rem;
+}
+
+.active {
+    color: hsl(213, 96%, 18%);
+}
+
+/* Actions */
+.actions {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn {
+    color: hsl(231, 11%, 63%);
+    background-color: #fff;
+    justify-self: flex-start;
+}
+
+.next-btn {
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+/* media queries */
+@media (max-width: 590px) {
+    .container {
+        width: 90%;
+        margin: -100px auto 0 ;
+        font-size: small;
+        padding: 0;
+
+    }
+
+    .select-plan {
+        border-radius: 10px;
+        padding: 0.5rem 1rem 1.5rem;
+        background-color: #fff;
+        margin-bottom: 5rem;
+    }
+
+    .plan-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .actions {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #fff;
+    }
+}

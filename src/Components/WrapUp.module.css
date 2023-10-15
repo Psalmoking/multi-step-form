@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 0 ;
+    height: auto;
+}
+
+.summary hr {
+    margin: 0.5rem 0;
+    color: white;
+}
+
+.wrap-up p {
+    color: hsl(231, 11%, 63%);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary {
+    margin-top: 2.5rem;
+    padding: 1.5rem ;
+    border-radius: 10px;
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.summary h4 {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.plan {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(229, 24%, 87%);
+}
+
+.plan p {
+    margin: .5rem 0;
+}
+
+.total {
+    height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.summary p, .total p {
+    font-size: 0.95rem;
+}
+
+.total  h4 {
+    font-size: 1.25rem;
+    color: hsl(243, 100%, 62%);
+}
+
+/* Actions */
+.actions {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn {
+    color: hsl(231, 11%, 63%);
+    background-color: #fff;
+    justify-self: flex-start;
+
+}
+
+.confirm-btn {
+    background-color: hsl(243, 100%, 62%);
+    color: #fff;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+/* media queries */
+@media (max-width: 590px) {
+    .container {
+        width: 90%;
+        margin: -100px auto 0 ;
+        font-size: small;
+        padding: 0;
+    }
+
+    .wrap-up {
+        border-radius: 10px;
+        padding: 0.5rem 1rem 1.5rem;
+        background-color: #fff;
+        margin-bottom: 5rem;
+    }
+
+    .actions {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #fff;
+    }
+}

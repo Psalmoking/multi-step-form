@@ -1,0 +1,20 @@
+.button {
+    font: inherit;
+    padding: 0.75rem 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:active,
+.button:focus {
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 590px) {
+    .button {
+        border-radius: 6px;
+    }
+}

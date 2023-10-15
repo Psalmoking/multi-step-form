@@ -1,0 +1,27 @@
+.step-badge {
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 100%;
+    padding: 0.45rem 0.7rem;
+}
+
+.step-description {
+    font-weight: bold;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+}
+
+.active-step {
+    color: #000;
+    background-color: hsl(217, 100%, 97%);
+}
+
+@media (max-width: 590px) {
+    .step-no, .step-description {
+        display: none;
+    }
+
+    .step-badge {
+       justify-self: center;
+       align-self: center;
+    }
+}

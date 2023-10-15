@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+} 
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+
+html {
+  font-family: 'Ubuntu';
+}
+
+body {
+  margin: 1rem;
+  background-color: hsl(217, 100%, 97%);
+}
+
+@media (max-width: 830px) {
+  body {
+    margin: 0;
+  }
+}

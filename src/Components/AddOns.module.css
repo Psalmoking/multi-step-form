@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 0 ;
+    height: auto;
+}
+
+.add-ons h1 {
+    margin-bottom: 0.75rem;
+}
+
+.add-ons p {
+    color: hsl(231, 11%, 63%);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.form {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.addon {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 1.25rem;
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 9px;
+}
+
+.addon input {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.addon > :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.description h4 {
+    margin: 0 0 0.25rem;
+}
+
+.description p {
+    font-size: 1rem;
+}
+
+.price {
+    color:  hsl(243, 100%, 62%);
+    font-size: 1.1rem;
+}
+
+.selected {
+    background-color: hsl(217, 100%, 97%);
+    border-color: hsl(213, 96%, 18%);
+}
+
+/* Actions */
+.actions {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn {
+    color: hsl(231, 11%, 63%);
+    background-color: #fff;
+    justify-self: flex-start;
+
+}
+
+.next-btn {
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+@media (max-width: 590px) {
+    .container {
+        width: 90%;
+        margin: -100px auto 0 ;
+        font-size: small;
+        padding: 0;
+    }
+
+    .add-ons {
+        border-radius: 10px;
+        padding: 0.5rem 1rem 1.5rem;
+        background-color: #fff;
+        margin-bottom: 5rem;
+    }
+
+    .actions {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #fff;
+    }
+}
