@@ -7,9 +7,6 @@ import React, {
 } from "react";
 import AuthContext from "../Store/auth-context";
 import Button from "./UI/Button";
-
-// import PhoneInputWithCountrySelect from "react-phone-number-input";
-
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { PhoneNumberUtil } from "google-libphonenumber";
