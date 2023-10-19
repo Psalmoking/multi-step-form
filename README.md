@@ -2,8 +2,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://react-multi-step-form-cac37.web.app/)
-- Live Site URL: [Add live site URL here](https://react-multi-step-form-cac37.web.app/)
+- Solution URL: [https://react-multi-step-form-cac37.web.app/]
+- Live Site URL: [https://react-multi-step-form-cac37.web.app/]
 
 ### Built with
 
